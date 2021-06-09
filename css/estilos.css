@@ -1,0 +1,43 @@
+.foto-barra-navegacion{
+  margin-left: 47%;
+}
+
+.texto-centrado {
+  text-align: center;
+  color: white;
+}
+
+.contenido {
+  height: 28rem;
+  background-color: #222;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.referencia-cv {
+  text-decoration: none;
+  color: #222;
+}
+
+.referencia-cv :hover :visited {
+  font-size: 15;
+  font-family: 'Courier New', Courier, monospace;
+  color: #222;
+}
+
+.carrusel-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
