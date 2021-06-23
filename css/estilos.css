@@ -9,7 +9,7 @@
 
 .contenido {
   height: 28rem;
-  background-color: #222;
+  background-color: cadetblue;
   justify-content: center;
   align-items: center;
 }
@@ -18,6 +18,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.boton-llave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #f8f9fa; !important
 }
 
 .navbar {
