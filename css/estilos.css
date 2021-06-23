@@ -24,10 +24,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .btn {
-  background-color: #f8f9fa; !important
+  background-color: #f8f9fa !important;
 }
 
 .navbar {
