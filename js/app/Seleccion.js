@@ -4,6 +4,8 @@ import { Hobbies } from "./Hobbies.js";
 import { LlavePublica } from "./LlavePublica.js";
 import { MuestraLlavePublica } from "./MuestraLLavePublica.js";
 
+const llave = new JSEncrypt();
+
 export function Seleccion(e){
   switch (e.target.id){
     case "curriculum":
@@ -19,7 +21,7 @@ export function Seleccion(e){
       LlavePublica();
       break;
     case "llave":
-      MuestraLlavePublica();
+      MuestraLlavePublica(llave);
       break;
   }
 }
