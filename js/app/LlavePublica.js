@@ -1,4 +1,5 @@
 import { Boton } from "../componentes/Boton.js";
+import { MuestraLlavePublica } from "./MuestraLLavePublica.js";
 
 export function LlavePublica(){
   const contenido = document.getElementById("contenido");
@@ -7,8 +8,8 @@ export function LlavePublica(){
   contenedor.appendChild(Boton({
     "name": "llave",
     "clases": "btn btn-ligth",
-    "texto": `<i class="fas fa-key"></i> Mi Llave Publica`
-    // "funcionClick": CambiaFiltroEquipos
+    "texto": `<i class="fas fa-key"></i> Mi Llave Publica`,
+    "funcionClick": MuestraLlavePublica
   }));
 
   contenedor.className = "boton-llave"
